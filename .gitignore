@@ -1,0 +1,36 @@
+Virtual Environments
+
+.venv/
+venv/
+ENV/
+
+Python Cache & Artifacts
+
+pycache/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+SQLite Database Files
+
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+Environment Configurations (Secrets)
+
+.env
+.env.local
+
+IDE & Editor Settings
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+OS Junk Files
+
+.DS_Store
+Thumbs.db
